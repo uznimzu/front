@@ -6,6 +6,7 @@ function App() {
     <div>
       limsomi
       minzu
+      123123
     </div>
   );
 }
