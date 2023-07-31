@@ -1,13 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import {Router, Route} from "react-router";
+import { Fragment } from 'react';
+import cateClick from './cateClickPage/cateClick.js';
 
-function App() {
+
+function App () {
   return (
-    <div>
-      limsomi
-      minzu
-      123123
-    </div>
+    <Fragment>
+      <Router>
+        <Route path="/cateClickPage" component={cateClick}>
+        </Route>
+      </Router>
+    </Fragment>
   );
 }
 
