@@ -5,6 +5,8 @@ function App() {
   return (
     <div>
       limsomi
+      minzu
+      123123
     </div>
   );
 }
