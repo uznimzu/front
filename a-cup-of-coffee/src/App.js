@@ -1,19 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import {Router, Route} from "react-router";
+import {Route, Routes} from "react-router-dom";
 import { Fragment } from 'react';
-import cateClick from './cateClickPage/cateClick.js';
+import CateClick from './cateClickPage/cateClick';
 
 
-function App () {
+function App() {
   return (
     <Fragment>
-      <Router>
-        <Route path="/cateClickPage" component={cateClick}>
-        </Route>
-      </Router>
+      <Routes>
+        <Route path="cateClickPage" element={<CateClick />} />
+        {/* <Route path="postClickPage" element={<PostClick />} /> */}
+      </Routes>
     </Fragment>
   );
 }
-
 export default App;
