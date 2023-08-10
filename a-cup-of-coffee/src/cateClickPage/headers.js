@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Header = styled.div`
         flex:1;
         `
-const Writebtn = styled.div`
+const Writebtn = styled.button`
         margin-left:auto;
         border-radius: 15px;
         background-color: lightgray;
